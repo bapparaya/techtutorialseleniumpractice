@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="admin123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <parameter name="username" value="Admin"/>
+  <test name="Testngparametertest">
+    <parameter name="password" value="admin123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="com.qa.testngpractice.ParamenterDemo"/>
+    </classes>
+  </test> <!-- Testngparametertest -->
+</suite> <!-- Failed suite [Suite] -->
